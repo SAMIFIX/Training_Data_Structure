@@ -8,7 +8,10 @@ Data Structure in Python:
     * Frozensets فروزن سيت
 """
 
-# List
+
+"""
+1. list
+"""
 
 # create list
 sami = []
@@ -125,4 +128,7 @@ tabogah = sami2.copy()
 
 print('method copy: ',tabogah)
 
-# NEXT WE WILL GO IN TUPLES AND DIFFERENCE BETWEEN LIST AND TUPLES
+
+"""
+2. Tuples
+"""
