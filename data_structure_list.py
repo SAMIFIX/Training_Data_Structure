@@ -1,7 +1,7 @@
 """
 Data Structure in Python:
 هياكل البيانات في البايثونّ
-    * List  ليست
+    > List  ليست
     * Tuples  تيوبليس
     * Dic  ديكشنريس
     * sets  سيت
@@ -18,8 +18,6 @@ sami = []
 print('create new list `sami`, show type of sami list: ', type(sami))
 
 """
-This is comments
-
 Methods with list:
 الاوامر والدالات المرتبطه باللست :
     * append() - اضافه عنصر ما الى اللست
@@ -33,8 +31,6 @@ Methods with list:
     * sort() - ترتيب العناصر بشكل تصاعدي			
     * reverse() - عكس ترتيب العناصر في اللست		
     * copy() - نسخ العناصر في اللست
-			
-
 """
 
 # method append in list
