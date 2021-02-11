@@ -1,30 +1,29 @@
 # loop in python
 
+# dic
+sami = {
+    'case#1':'Died',
+    'case#2':'return from life',
+    'case#3':'still a life some where'
+}
 
-# create list and start add new items
-fruits = ['Apple', 'Orange', 'Banana']
-
-
-
-# add new items
-fruits.append('Tomato')
-print('all fruits: ',fruits)
-
-# for loop
-for i in fruits:
-    print(i + ' #' + str(fruits.index(i)))
-
-# size of list fruits
-print('size of fruits list: ',len(fruits))
+# print values only
+for i in sami.values():
+    print(i)
 
 
-# range function
-for i in range(len(fruits)):
-    print(fruits[i])
+# print keys
+for i in sami.keys():
+    print(i)
 
-# slicing fruit list
-print('slicing fruits list: ',fruits[::2])
+# tuple
+blade = (1,'Yes', 'Ok', 'Jack')
 
+for shiny in blade:
+    print(shiny)
 
-for i in range(1, len(fruits), 3):
-    print('range function: ',fruits[i])
+# list
+blade2 = [1,'Yes', 'Ok', 'Jack']
+
+for shin in blade2:
+    print(shin)
